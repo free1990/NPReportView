@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740704401AB8206B004747F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7407043F1AB8206B004747F7 /* main.m */; };
+		740704431AB8206B004747F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740704421AB8206B004747F7 /* AppDelegate.m */; };
+		740704491AB8206B004747F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740704471AB8206B004747F7 /* Main.storyboard */; };
+		7407044B1AB8206B004747F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7407044A1AB8206B004747F7 /* Images.xcassets */; };
+		7407044E1AB8206B004747F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7407044C1AB8206B004747F7 /* LaunchScreen.xib */; };
+		7407045A1AB8206C004747F7 /* NPReportViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740704591AB8206C004747F7 /* NPReportViewDemoTests.m */; };
+		7407047F1AB822A5004747F7 /* NPReportGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 740704781AB822A5004747F7 /* NPReportGrid.m */; };
+		740704801AB822A5004747F7 /* NPReportLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7407047A1AB822A5004747F7 /* NPReportLabel.m */; };
+		740704811AB822A5004747F7 /* NPReportStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7407047C1AB822A5004747F7 /* NPReportStyle.m */; };
+		740704821AB822A5004747F7 /* NPReportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7407047E1AB822A5004747F7 /* NPReportView.m */; };
+		740704881AB82BA4004747F7 /* NSIndexPath+NPReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 740704871AB82BA4004747F7 /* NSIndexPath+NPReport.m */; };
+		7450200A1AC0050500C2D20E /* GridStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745020091AC0050500C2D20E /* GridStyleViewController.m */; };
+		7450200D1AC00A9600C2D20E /* HandleTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7450200C1AC00A9600C2D20E /* HandleTouchViewController.m */; };
+		748449001AC13CD600FB2886 /* AutoFitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748448FF1AC13CD600FB2886 /* AutoFitViewController.m */; };
+		748449031AC13CEB00FB2886 /* SortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748449021AC13CEB00FB2886 /* SortViewController.m */; };
+		74B096511AC24E360083E1E1 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 74B096501AC24E360083E1E1 /* data.txt */; };
+		74B380101ABBB9CE00886B90 /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B3800F1ABBB9CE00886B90 /* SimpleViewController.m */; };
+		74B380131ABBF71900886B90 /* ComplexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B380121ABBF71900886B90 /* ComplexViewController.m */; };
+		74B380161ABC1B0A00886B90 /* StyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B380151ABC1B0A00886B90 /* StyleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		740704541AB8206C004747F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 740704321AB8206B004747F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740704391AB8206B004747F7;
+			remoteInfo = NPReportViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7407043A1AB8206B004747F7 /* NPReportViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPReportViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7407043E1AB8206B004747F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7407043F1AB8206B004747F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		740704411AB8206B004747F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		740704421AB8206B004747F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		740704481AB8206B004747F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7407044A1AB8206B004747F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7407044D1AB8206B004747F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		740704531AB8206C004747F7 /* NPReportViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPReportViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		740704581AB8206C004747F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740704591AB8206C004747F7 /* NPReportViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPReportViewDemoTests.m; sourceTree = "<group>"; };
+		740704761AB82178004747F7 /* NPReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NPReport.h; path = NPReportView/NPReport.h; sourceTree = "<group>"; };
+		740704771AB822A5004747F7 /* NPReportGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPReportGrid.h; path = NPReportView/NPReportGrid.h; sourceTree = "<group>"; };
+		740704781AB822A5004747F7 /* NPReportGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPReportGrid.m; path = NPReportView/NPReportGrid.m; sourceTree = "<group>"; };
+		740704791AB822A5004747F7 /* NPReportLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPReportLabel.h; path = NPReportView/NPReportLabel.h; sourceTree = "<group>"; };
+		7407047A1AB822A5004747F7 /* NPReportLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPReportLabel.m; path = NPReportView/NPReportLabel.m; sourceTree = "<group>"; };
+		7407047B1AB822A5004747F7 /* NPReportStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPReportStyle.h; path = NPReportView/NPReportStyle.h; sourceTree = "<group>"; };
+		7407047C1AB822A5004747F7 /* NPReportStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPReportStyle.m; path = NPReportView/NPReportStyle.m; sourceTree = "<group>"; };
+		7407047D1AB822A5004747F7 /* NPReportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPReportView.h; path = NPReportView/NPReportView.h; sourceTree = "<group>"; };
+		7407047E1AB822A5004747F7 /* NPReportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPReportView.m; path = NPReportView/NPReportView.m; sourceTree = "<group>"; };
+		740704861AB82BA4004747F7 /* NSIndexPath+NPReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath+NPReport.h"; path = "NPReportView/NSIndexPath+NPReport.h"; sourceTree = "<group>"; };
+		740704871AB82BA4004747F7 /* NSIndexPath+NPReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSIndexPath+NPReport.m"; path = "NPReportView/NSIndexPath+NPReport.m"; sourceTree = "<group>"; };
+		745020081AC0050500C2D20E /* GridStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridStyleViewController.h; sourceTree = "<group>"; };
+		745020091AC0050500C2D20E /* GridStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridStyleViewController.m; sourceTree = "<group>"; };
+		7450200B1AC00A9600C2D20E /* HandleTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandleTouchViewController.h; sourceTree = "<group>"; };
+		7450200C1AC00A9600C2D20E /* HandleTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleTouchViewController.m; sourceTree = "<group>"; };
+		748448FE1AC13CD600FB2886 /* AutoFitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoFitViewController.h; sourceTree = "<group>"; };
+		748448FF1AC13CD600FB2886 /* AutoFitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoFitViewController.m; sourceTree = "<group>"; };
+		748449011AC13CEB00FB2886 /* SortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortViewController.h; sourceTree = "<group>"; };
+		748449021AC13CEB00FB2886 /* SortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortViewController.m; sourceTree = "<group>"; };
+		74B096501AC24E360083E1E1 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		74B3800E1ABBB9CE00886B90 /* SimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		74B3800F1ABBB9CE00886B90 /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
+		74B380111ABBF71900886B90 /* ComplexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplexViewController.h; sourceTree = "<group>"; };
+		74B380121ABBF71900886B90 /* ComplexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplexViewController.m; sourceTree = "<group>"; };
+		74B380141ABC1B0A00886B90 /* StyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleViewController.h; sourceTree = "<group>"; };
+		74B380151ABC1B0A00886B90 /* StyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		740704371AB8206B004747F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740704501AB8206C004747F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740704311AB8206B004747F7 = {
+			isa = PBXGroup;
+			children = (
+				740704751AB8213B004747F7 /* NPReportView */,
+				7407043C1AB8206B004747F7 /* NPReportViewDemo */,
+				740704561AB8206C004747F7 /* NPReportViewDemoTests */,
+				7407043B1AB8206B004747F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7407043B1AB8206B004747F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7407043A1AB8206B004747F7 /* NPReportViewDemo.app */,
+				740704531AB8206C004747F7 /* NPReportViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7407043C1AB8206B004747F7 /* NPReportViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				740704471AB8206B004747F7 /* Main.storyboard */,
+				740704411AB8206B004747F7 /* AppDelegate.h */,
+				740704421AB8206B004747F7 /* AppDelegate.m */,
+				7407043D1AB8206B004747F7 /* Supporting Files */,
+				74B3800E1ABBB9CE00886B90 /* SimpleViewController.h */,
+				74B3800F1ABBB9CE00886B90 /* SimpleViewController.m */,
+				74B380111ABBF71900886B90 /* ComplexViewController.h */,
+				74B380121ABBF71900886B90 /* ComplexViewController.m */,
+				74B380141ABC1B0A00886B90 /* StyleViewController.h */,
+				74B380151ABC1B0A00886B90 /* StyleViewController.m */,
+				745020081AC0050500C2D20E /* GridStyleViewController.h */,
+				745020091AC0050500C2D20E /* GridStyleViewController.m */,
+				7450200B1AC00A9600C2D20E /* HandleTouchViewController.h */,
+				7450200C1AC00A9600C2D20E /* HandleTouchViewController.m */,
+				748448FE1AC13CD600FB2886 /* AutoFitViewController.h */,
+				748448FF1AC13CD600FB2886 /* AutoFitViewController.m */,
+				748449011AC13CEB00FB2886 /* SortViewController.h */,
+				748449021AC13CEB00FB2886 /* SortViewController.m */,
+			);
+			path = NPReportViewDemo;
+			sourceTree = "<group>";
+		};
+		7407043D1AB8206B004747F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74B096501AC24E360083E1E1 /* data.txt */,
+				7407044A1AB8206B004747F7 /* Images.xcassets */,
+				7407044C1AB8206B004747F7 /* LaunchScreen.xib */,
+				7407043E1AB8206B004747F7 /* Info.plist */,
+				7407043F1AB8206B004747F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		740704561AB8206C004747F7 /* NPReportViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				740704591AB8206C004747F7 /* NPReportViewDemoTests.m */,
+				740704571AB8206C004747F7 /* Supporting Files */,
+			);
+			path = NPReportViewDemoTests;
+			sourceTree = "<group>";
+		};
+		740704571AB8206C004747F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				740704581AB8206C004747F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		740704751AB8213B004747F7 /* NPReportView */ = {
+			isa = PBXGroup;
+			children = (
+				740704761AB82178004747F7 /* NPReport.h */,
+				740704771AB822A5004747F7 /* NPReportGrid.h */,
+				740704781AB822A5004747F7 /* NPReportGrid.m */,
+				740704791AB822A5004747F7 /* NPReportLabel.h */,
+				7407047A1AB822A5004747F7 /* NPReportLabel.m */,
+				7407047B1AB822A5004747F7 /* NPReportStyle.h */,
+				7407047C1AB822A5004747F7 /* NPReportStyle.m */,
+				7407047D1AB822A5004747F7 /* NPReportView.h */,
+				7407047E1AB822A5004747F7 /* NPReportView.m */,
+				740704861AB82BA4004747F7 /* NSIndexPath+NPReport.h */,
+				740704871AB82BA4004747F7 /* NSIndexPath+NPReport.m */,
+			);
+			name = NPReportView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		740704391AB8206B004747F7 /* NPReportViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7407045D1AB8206C004747F7 /* Build configuration list for PBXNativeTarget "NPReportViewDemo" */;
+			buildPhases = (
+				740704361AB8206B004747F7 /* Sources */,
+				740704371AB8206B004747F7 /* Frameworks */,
+				740704381AB8206B004747F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPReportViewDemo;
+			productName = NPReportViewDemo;
+			productReference = 7407043A1AB8206B004747F7 /* NPReportViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		740704521AB8206C004747F7 /* NPReportViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740704601AB8206C004747F7 /* Build configuration list for PBXNativeTarget "NPReportViewDemoTests" */;
+			buildPhases = (
+				7407044F1AB8206C004747F7 /* Sources */,
+				740704501AB8206C004747F7 /* Frameworks */,
+				740704511AB8206C004747F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				740704551AB8206C004747F7 /* PBXTargetDependency */,
+			);
+			name = NPReportViewDemoTests;
+			productName = NPReportViewDemoTests;
+			productReference = 740704531AB8206C004747F7 /* NPReportViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		740704321AB8206B004747F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Chenly;
+				TargetAttributes = {
+					740704391AB8206B004747F7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					740704521AB8206C004747F7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 740704391AB8206B004747F7;
+					};
+				};
+			};
+			buildConfigurationList = 740704351AB8206B004747F7 /* Build configuration list for PBXProject "NPReportViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 740704311AB8206B004747F7;
+			productRefGroup = 7407043B1AB8206B004747F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				740704391AB8206B004747F7 /* NPReportViewDemo */,
+				740704521AB8206C004747F7 /* NPReportViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		740704381AB8206B004747F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B096511AC24E360083E1E1 /* data.txt in Resources */,
+				740704491AB8206B004747F7 /* Main.storyboard in Resources */,
+				7407044E1AB8206B004747F7 /* LaunchScreen.xib in Resources */,
+				7407044B1AB8206B004747F7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740704511AB8206C004747F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		740704361AB8206B004747F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7450200D1AC00A9600C2D20E /* HandleTouchViewController.m in Sources */,
+				74B380101ABBB9CE00886B90 /* SimpleViewController.m in Sources */,
+				740704821AB822A5004747F7 /* NPReportView.m in Sources */,
+				740704811AB822A5004747F7 /* NPReportStyle.m in Sources */,
+				748449031AC13CEB00FB2886 /* SortViewController.m in Sources */,
+				7407047F1AB822A5004747F7 /* NPReportGrid.m in Sources */,
+				740704881AB82BA4004747F7 /* NSIndexPath+NPReport.m in Sources */,
+				740704431AB8206B004747F7 /* AppDelegate.m in Sources */,
+				7450200A1AC0050500C2D20E /* GridStyleViewController.m in Sources */,
+				74B380131ABBF71900886B90 /* ComplexViewController.m in Sources */,
+				740704801AB822A5004747F7 /* NPReportLabel.m in Sources */,
+				74B380161ABC1B0A00886B90 /* StyleViewController.m in Sources */,
+				748449001AC13CD600FB2886 /* AutoFitViewController.m in Sources */,
+				740704401AB8206B004747F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7407044F1AB8206C004747F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7407045A1AB8206C004747F7 /* NPReportViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		740704551AB8206C004747F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 740704391AB8206B004747F7 /* NPReportViewDemo */;
+			targetProxy = 740704541AB8206C004747F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		740704471AB8206B004747F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740704481AB8206B004747F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7407044C1AB8206B004747F7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7407044D1AB8206B004747F7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7407045B1AB8206C004747F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7407045C1AB8206C004747F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7407045E1AB8206C004747F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NPReportViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7407045F1AB8206C004747F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NPReportViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		740704611AB8206C004747F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NPReportViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPReportViewDemo.app/NPReportViewDemo";
+			};
+			name = Debug;
+		};
+		740704621AB8206C004747F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NPReportViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPReportViewDemo.app/NPReportViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		740704351AB8206B004747F7 /* Build configuration list for PBXProject "NPReportViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7407045B1AB8206C004747F7 /* Debug */,
+				7407045C1AB8206C004747F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7407045D1AB8206C004747F7 /* Build configuration list for PBXNativeTarget "NPReportViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7407045E1AB8206C004747F7 /* Debug */,
+				7407045F1AB8206C004747F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740704601AB8206C004747F7 /* Build configuration list for PBXNativeTarget "NPReportViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740704611AB8206C004747F7 /* Debug */,
+				740704621AB8206C004747F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 740704321AB8206B004747F7 /* Project object */;
+}

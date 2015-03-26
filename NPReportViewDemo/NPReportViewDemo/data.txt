@@ -1,0 +1,95 @@
+{
+"header": [
+{
+"colId": 0,
+"text": "00",
+"rowId": 0,
+"colSpan": 1,
+"rowSpan": 2
+},
+{
+"colId": 1,
+"text": "01",
+"rowId": 0,
+"colSpan": 3,
+"rowSpan": 1
+},
+{
+"colId": 4,
+"text": "04",
+"rowId": 0,
+"colSpan": 2,
+"rowSpan": 1
+},
+{
+"colId": 1,
+"text": "11",
+"rowId": 1,
+"colSpan": 1,
+"rowSpan": 1
+},
+{
+"colId": 2,
+"text": "12",
+"rowId": 1,
+"colSpan": 1,
+"rowSpan": 1
+},
+{
+"colId": 3,
+"text": "13",
+"remark": " ",
+"rowId": 1,
+"colSpan": 1,
+"rowSpan": 1
+},
+{
+"colId": 4,
+"text": "14",
+"rowId": 1,
+"colSpan": 1,
+"rowSpan": 1
+},
+{
+"colId": 5,
+"text": "15",
+"rowId": 1,
+"colSpan": 1,
+"rowSpan": 1
+}
+],
+"body": [
+[
+"mydb2ds",
+"201",
+"MULTI_DATA_SOURCE",
+"DB2",
+"2014-05-09",
+"10X"
+],
+[
+"mydb2ds",
+"340",
+"MULTI_DATA_SOURCE",
+"mydb2ds",
+"2014-05-09",
+"10C"
+],
+[
+"reportDS",
+"341",
+"MULTI_DATA_SOURCE",
+"reportDS",
+"2014-05-09",
+"10C"
+],
+[
+"reportDS",
+"200",
+"MULTI_DATA_SOURCE",
+"ORACLE",
+"2014-05-09",
+"10X"
+]
+]
+}

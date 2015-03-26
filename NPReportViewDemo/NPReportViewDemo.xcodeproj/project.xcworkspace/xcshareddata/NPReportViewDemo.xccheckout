@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>831402AD-EAC2-41D9-9ACC-9ABE37C8F6C3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NPReportViewDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0C03E4EBFB4B17733C1C42772D9288FCB04299DE</key>
+		<string>https://github.com/NoPerches/NPReportView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NPReportViewDemo/NPReportViewDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0C03E4EBFB4B17733C1C42772D9288FCB04299DE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/NoPerches/NPReportView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0C03E4EBFB4B17733C1C42772D9288FCB04299DE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C03E4EBFB4B17733C1C42772D9288FCB04299DE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NPReportView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
