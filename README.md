@@ -17,6 +17,7 @@ NPReportView是一个多功能的报表控件，基本满足报表需求。
 ## Requirements
 
 - iOS 7.0+
+- Xcode 6.0+
 
 ## CocoaPods
 
@@ -56,37 +57,37 @@ reportView.datasource = self;
 ### 设置风格样式
 
 ```objc
-	// 使用键值对初始化
-    NPReportStyle *style = [NPReportStyle styleWithSettings:@{
-                                                              NPRBackgroundColorOfHeaderSettingName: [UIColor colorWithRed:224/255.f green:237/255.f blue:250/255.f alpha:1.f],
-                                                              NPRBorderColorSettingName: [UIColor colorWithRed:106/255.f green:145/255.f blue:170/255.f alpha:1.f],
-                                                              NPRHeightOfHeaderRowSettingName: @30.f,
-                                                              NPRHeightOfRowSettingName: @20.f,
-                                                              NPRWidthOfFirstColSettingName: @80.f,
-                                                              NPRWidthOfColSettingName: @60.f,
-                                                              NPRFontSettingName: [UIFont systemFontOfSize:14.f],
-                                                              NPRTextColorSettingName: [UIColor darkGrayColor],
-                                                              NPRTextColorOfHeaderSettingName: [UIColor blueColor],
-                                                              }];
-    // 或者使用style的属性来设置                                                          
-    style.stripeBackgroundColor = [UIColor colorWithWhite:0.85 alpha:1.f];
-    style.stripeTextColor = [UIColor whiteColor];
-    // 赋值给reportView
-    reportView.style = style;
+// 使用键值对初始化
+NPReportStyle *style = [NPReportStyle styleWithSettings:@{
+                                                          NPRBackgroundColorOfHeaderSettingName: [UIColor colorWithRed:224/255.f green:237/255.f blue:250/255.f alpha:1.f],
+                                                          NPRBorderColorSettingName: [UIColor colorWithRed:106/255.f green:145/255.f blue:170/255.f alpha:1.f],
+                                                          NPRHeightOfHeaderRowSettingName: @30.f,
+                                                          NPRHeightOfRowSettingName: @20.f,
+                                                          NPRWidthOfFirstColSettingName: @80.f,
+                                                          NPRWidthOfColSettingName: @60.f,
+                                                          NPRFontSettingName: [UIFont systemFontOfSize:14.f],
+                                                          NPRTextColorSettingName: [UIColor darkGrayColor],
+                                                          NPRTextColorOfHeaderSettingName: [UIColor blueColor],
+                                                          }];
+// 或者使用style的属性来设置                                                          
+style.stripeBackgroundColor = [UIColor colorWithWhite:0.85 alpha:1.f];
+style.stripeTextColor = [UIColor whiteColor];
+// 赋值给reportView
+reportView.style = style;
 ```
 
 ### 指定单元格设置
 
 ```objc
-	// 针对特定某个单元格设置样式，不额外设置时使用style设置
-    grid.backgroundColor = [UIColor lightGrayColor];
-    grid.font = [UIFont boldSystemFontOfSize:20.f];
-    grid.textColor = [UIColor redColor];
-    grid.textAlignment = NSTextAlignmentLeft;
-    grid.underline = YES;
-    // 单元格设置跨行跨列，默认为1，表示不跨行
-    grid.rowspan = 3;
-    grid.colspan = 3;
+// 针对特定某个单元格设置样式，不额外设置时使用style设置
+grid.backgroundColor = [UIColor lightGrayColor];
+grid.font = [UIFont boldSystemFontOfSize:20.f];
+grid.textColor = [UIColor redColor];
+grid.textAlignment = NSTextAlignmentLeft;
+grid.underline = YES;
+// 单元格设置跨行跨列，默认为1，表示不跨行
+grid.rowspan = 3;
+grid.colspan = 3;
 ```
 
 ### 响应点击或长按事件
@@ -94,7 +95,7 @@ reportView.datasource = self;
 #### 设置delegate
 
 ```objc
-    reportView.delegate = self;
+reportView.delegate = self;
 ```
 
 #### 实现delegate方法
@@ -119,7 +120,7 @@ reportView.style.autoFitHeight = YES;
 ### 排序
 
 ```objc
-	[reportView sortByCol:col order:NPReportOrderedDescending];
+[reportView sortByCol:col order:NPReportOrderedDescending];
 ```
 
 需要实现以下代理方法，提供排序依据
@@ -130,4 +131,8 @@ reportView.style.autoFitHeight = YES;
 }
 ```
 **排序功能仅针对简单表格（表头只有一行，没有跨行跨列情况）。**
+
+### Creator
+
+- <resounding@yeah.net>
 
